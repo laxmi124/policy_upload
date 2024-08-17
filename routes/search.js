@@ -3,9 +3,10 @@ const Policy = require('../models/policy');
 const User = require('../models/user');
 const router = express.Router();
 
-router.get('/search/:username', async (req, res) => {
+router.get('/search', async (req, res) => {
     try {
-        const user = await User.findOne({ firstName: req.params.username });
+        const userName = req.query.name;
+        const user = await User.findOne({ firstName: userName });
         if (!user) {
             return res.status(404).send('User not found');
         }
