@@ -73,6 +73,7 @@ The Policy Management System is a Node.js application designed to handle various
 - `workers/`: Contains worker threads for file processing.
   - `uploadWorker.js`
 - `monitor.js`: Monitors CPU usage and restarts the server if usage exceeds 70%.
+- ![](https://github.com/laxmi124/policy_upload/blob/main/public/cpuUsage.png)
 - `index.js`: Main entry point for the application.
 - `.env`: Contains environment variables like `MONGO_URI` and `PORT`.
 
