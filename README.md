@@ -63,9 +63,13 @@ The Policy Management System is a Node.js application designed to handle various
   - `message.js`
 - `routes/`: Contains Express route handlers.
   - `upload.js`: Handles file uploads.
+  - ![](https://github.com/laxmi124/policy_upload/blob/main/public/fileUpload.png)
   - `search.js`: Handles search operations by username.
+  - ![](https://github.com/laxmi124/policy_upload/blob/main/public/serachBy_user.png)
   - `aggregate.js`: Handles aggregation operations.
+  - ![](https://github.com/laxmi124/policy_upload/blob/main/public/aggregate.png)
   - `scheduleMessage.js`: Handles scheduling messages.
+  - ![](https://github.com/laxmi124/policy_upload/blob/main/public/scheduleMessage.png)
 - `workers/`: Contains worker threads for file processing.
   - `uploadWorker.js`
 - `monitor.js`: Monitors CPU usage and restarts the server if usage exceeds 70%.
